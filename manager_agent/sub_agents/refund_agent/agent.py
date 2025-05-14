@@ -3,8 +3,9 @@ from google.adk.agents import Agent
 ## """Refund Transaction Agent for Travel Insurance"""
 refund_agent = Agent(
     name="refund_agent",
-    model="gemini-2.5-pro-exp-03-25",
-    description="Manages refund processing and cancellation policies for travel insurance products.",
+    # model="gemini-2.5-pro-exp-03-25",
+    model="gemini-2.5-pro-preview-03-25",
+    description="Handles refund processing and cancellation policies for travel insurance products.",
     instruction="""Process refunds for travel insurance plans according to policy terms and conditions.
                    
                    Refund Types to Handle:
